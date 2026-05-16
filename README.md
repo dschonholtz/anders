@@ -9,13 +9,8 @@ Private daily data belongs in a separate data repo such as `anders-life`.
 ## Intended flow
 
 ```bash
-export ANDERS_DATA_REPO=~/repos/anders-life
-anders init-day --date today
-anders collect-gmail --date today --query 'newer_than:1d'
-anders collect-calendar --date today
-anders extract-linkedin --date today
+anders collect --date today --data-repo ~/repos/anders-life
+anders summarize --date today --data-repo ~/repos/anders-life
 ```
 
 OpenClaw/Codex can invoke the CLI, then read generated briefing files from the private data repo.
-
-See `docs/source-adapters.md` for Google email/calendar and LinkedIn notification extraction notes.
