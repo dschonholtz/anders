@@ -22,3 +22,4 @@ Anders should be a toolbox of small task-specific CLIs, not one giant command wi
 Implemented task tools:
 
 - `anders-google` — read-only/dry-run Gmail + Google Calendar ingestion using official Google API client libraries. See `tools/anders-google/README.md`.
+- `anders-md-pdf` — render local Markdown drafts and briefing notes to polished PDFs. See `tools/anders-md-pdf/README.md`.

@@ -30,6 +30,16 @@ Docs: `tools/anders-linkedin/README.md`
 
 Status: LinkedIn app created; token flow/product scopes pending local secret + approved scopes.
 
+### `anders-md-pdf`
+
+Purpose: Render Markdown drafts and briefing notes to polished local PDFs.
+
+Use when: Doug wants shareable/reviewable PDFs from `content/drafts/*.md` or `briefings/days/YYYY-MM-DD/*.md`.
+
+Docs: `tools/anders-md-pdf/README.md`
+
+Status: implemented with Markdown -> themed HTML -> PDF via Playwright/Chromium.
+
 ### `anders-brief`
 
 Purpose: render morning briefs from private repo artifacts.
