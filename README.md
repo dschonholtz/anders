@@ -14,3 +14,7 @@ anders summarize --date today --data-repo ~/repos/anders-life
 ```
 
 OpenClaw/Codex can invoke the CLI, then read generated briefing files from the private data repo.
+
+## Tool architecture
+
+Anders should be a toolbox of small task-specific CLIs, not one giant command with sprawling docs. See `docs/tool-architecture.md` and `tools/index.md`.
