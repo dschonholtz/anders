@@ -23,3 +23,7 @@ Implemented task tools:
 
 - `anders-google` — read-only/dry-run Gmail + Google Calendar ingestion using official Google API client libraries. See `tools/anders-google/README.md`.
 - `anders-md-pdf` — render local Markdown drafts and briefing notes to polished PDFs. See `tools/anders-md-pdf/README.md`.
+
+Designed/pending task tools:
+
+- `anders-imessage` — privacy-preserving daily iMessage signal summaries only; no full conversation export. See `tools/anders-imessage/README.md`.

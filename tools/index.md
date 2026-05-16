@@ -30,6 +30,17 @@ Docs: `tools/anders-linkedin/README.md`
 
 Status: LinkedIn app created; token flow/product scopes pending local secret + approved scopes.
 
+
+### `anders-imessage`
+
+Purpose: Privacy-preserving iMessage signal ingestion for daily briefings.
+
+Use when: folding important or missed iMessage items from the past day into accountability context without exporting full conversations.
+
+Docs: `tools/anders-imessage/README.md` and `docs/imessage-signal-ingestion.md`
+
+Status: design/recommended setup only; implementation pending local macOS read permissions.
+
 ### `anders-md-pdf`
 
 Purpose: Render Markdown drafts and briefing notes to polished local PDFs.
