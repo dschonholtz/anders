@@ -12,11 +12,13 @@ Use when: starting a new day, ensuring required files exist.
 
 ### `anders-google`
 
-Purpose: Google auth/email/calendar orchestration using official Google tooling where possible.
+Purpose: Read-first Gmail and Google Calendar ingestion using official Google API client libraries.
 
-Use when: collecting Gmail or Google Calendar data.
+Use when: collecting unread inbox mail, recent important mail, full message briefing artifacts, calendar windows, sender summaries, or dry-run Gmail triage recommendations.
 
-Status: design pending. Prefer official Google CLI/App Script/clasp paths before custom API wrappers.
+Docs: `tools/anders-google/README.md`
+
+Status: scaffold implemented; current commands are read-only or dry-run. Mutation command intentionally refuses until a reviewed policy/approval flow exists.
 
 ### `anders-linkedin`
 

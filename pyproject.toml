@@ -5,8 +5,16 @@ description = "File-backed personal assistant briefing tools"
 requires-python = ">=3.11"
 dependencies = []
 
+[project.optional-dependencies]
+google = [
+  "google-api-python-client>=2.0",
+  "google-auth>=2.0",
+  "google-auth-oauthlib>=1.0",
+]
+
 [project.scripts]
 anders = "anders.cli:main"
+anders-google = "anders.google_ingest:main"
 
 [tool.ruff]
 line-length = 100
