@@ -1,0 +1,18 @@
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+dist/
+build/
+*.egg-info/
+.DS_Store
+
+# Keep public repo free of personal data by default.
+briefings/
+data/
+raw/
+secrets/

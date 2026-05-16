@@ -1,0 +1,7 @@
+briefings/days/YYYY-MM-DD/
+  README.md
+  goals.md
+  followups.md
+  sources.md
+  summary.md
+  raw/

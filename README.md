@@ -1,0 +1,16 @@
+# anders
+
+Open-source tooling for a file-backed personal assistant briefing system.
+
+`anders` contains reusable code, schemas, templates, and docs. It should not contain personal data, tokens, raw emails, or private briefing artifacts.
+
+Private daily data belongs in a separate data repo such as `anders-life`.
+
+## Intended flow
+
+```bash
+anders collect --date today --data-repo ~/repos/anders-life
+anders summarize --date today --data-repo ~/repos/anders-life
+```
+
+OpenClaw/Codex can invoke the CLI, then read generated briefing files from the private data repo.

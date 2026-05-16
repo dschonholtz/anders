@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AndersSourceItem",
+  "type": "object",
+  "required": ["source", "source_id", "captured_at", "title"],
+  "properties": {
+    "source": {"type": "string"},
+    "source_id": {"type": "string"},
+    "captured_at": {"type": "string", "format": "date-time"},
+    "occurred_at": {"type": "string"},
+    "person": {"type": "string"},
+    "title": {"type": "string"},
+    "summary": {"type": "string"},
+    "url": {"type": "string"},
+    "confidence": {"type": "number", "minimum": 0, "maximum": 1},
+    "privacy": {"type": "string", "enum": ["public", "personal", "sensitive", "secret"]}
+  },
+  "additionalProperties": true
+}
