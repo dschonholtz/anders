@@ -20,11 +20,13 @@ Status: design pending. Prefer official Google CLI/App Script/clasp paths before
 
 ### `anders-linkedin`
 
-Purpose: LinkedIn signals from official exports or notification emails.
+Purpose: Official LinkedIn Developer API/OAuth access plus conservative LinkedIn signal handling.
 
-Use when: extracting LinkedIn follow-up signals without scraping LinkedIn.
+Use when: authorizing/querying LinkedIn APIs or extracting LinkedIn follow-up signals without scraping LinkedIn.
 
-Status: design pending.
+Docs: `tools/anders-linkedin/README.md`
+
+Status: LinkedIn app created; token flow/product scopes pending local secret + approved scopes.
 
 ### `anders-brief`
 
